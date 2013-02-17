@@ -1,0 +1,26 @@
+{
+  "name": "protobuf-spec-parser",
+  "version": "0.0.0",
+  "description": "protobuf specification parser. streaming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/protobuf-spec-parser.git"
+  },
+  "keywords": [
+    "protobuf",
+    "spec",
+    "parser"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "through": "~2.2.0"
+  },
+  "devDependencies": {
+    "tape": "~0.2.2"
+  }
+}
