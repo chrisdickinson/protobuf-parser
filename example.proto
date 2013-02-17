@@ -1,5 +1,6 @@
-package foo.bar;
+package foo.bar.baz;
 import "test.proto";
+import "namespace.proto";
 
 message Person {
   required string name = 1;
@@ -27,6 +28,8 @@ message Baz {
 }
 
 message Foo {
-  required .foo.bar.Person guy = 1;
+  required .foo.bar.baz.Person guy = 1;
+  optional LOL what = 2;
+  repeated lol.wat.okay.LilJon nope = 2;
   extensions 1000 to max;
 }

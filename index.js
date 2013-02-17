@@ -18,6 +18,10 @@ function parse(load) {
   tokens.on('error', error)
   parsed.on('error', error)
 
+  stream.scope = function() {
+    return parsed.scope
+  }
+
   tokens.pipe(parsed)
   parsed.on('data', output)
 

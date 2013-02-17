@@ -1,0 +1,5 @@
+package lol.wat.okay;
+
+message LilJon {
+  required int32 snapyofingers = 1;
+}
