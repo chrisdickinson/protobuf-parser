@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chrisdickinson/protobuf-spec-parser.git"
+    "url": "git://github.com/chrisdickinson/protobuf-parser.git"
   },
   "keywords": [
     "protobuf",
