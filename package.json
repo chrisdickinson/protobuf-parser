@@ -1,5 +1,5 @@
 {
-  "name": "protobuf-spec-parser",
+  "name": "protobuf-parser",
   "version": "0.0.0",
   "description": "protobuf specification parser. streaming.",
   "main": "index.js",
